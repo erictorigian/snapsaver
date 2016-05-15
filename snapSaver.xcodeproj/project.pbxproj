@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07038BD61CE5F7450000FD56 /* NewSnapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07038BD51CE5F7450000FD56 /* NewSnapViewController.swift */; };
+		073091FC1CE7E50800E69990 /* SnapCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073091FB1CE7E50800E69990 /* SnapCell.swift */; };
+		073091FF1CE7EB8C00E69990 /* Snap+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073091FD1CE7EB8C00E69990 /* Snap+CoreDataProperties.swift */; };
+		073092001CE7EB8C00E69990 /* Snap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073091FE1CE7EB8C00E69990 /* Snap.swift */; };
 		0761F69B1CE4B78500351191 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0761F69A1CE4B78500351191 /* AppDelegate.swift */; };
 		0761F69D1CE4B78500351191 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0761F69C1CE4B78500351191 /* ViewController.swift */; };
 		0761F6A01CE4B78500351191 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0761F69E1CE4B78500351191 /* Main.storyboard */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07038BD51CE5F7450000FD56 /* NewSnapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewSnapViewController.swift; sourceTree = "<group>"; };
+		073091FB1CE7E50800E69990 /* SnapCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapCell.swift; sourceTree = "<group>"; };
+		073091FD1CE7EB8C00E69990 /* Snap+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Snap+CoreDataProperties.swift"; path = "../Snap+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		073091FE1CE7EB8C00E69990 /* Snap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Snap.swift; path = ../Snap.swift; sourceTree = "<group>"; };
 		0761F6971CE4B78500351191 /* snapSaver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snapSaver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0761F69A1CE4B78500351191 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0761F69C1CE4B78500351191 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,15 +64,43 @@
 		0761F6991CE4B78500351191 /* snapSaver */ = {
 			isa = PBXGroup;
 			children = (
+				0761F6B11CE4B7B900351191 /* Controller */,
+				0761F6B01CE4B7B200351191 /* View */,
+				0761F6AF1CE4B7AA00351191 /* Model */,
 				0761F69A1CE4B78500351191 /* AppDelegate.swift */,
-				0761F69C1CE4B78500351191 /* ViewController.swift */,
-				0761F69E1CE4B78500351191 /* Main.storyboard */,
 				0761F6A41CE4B78500351191 /* Assets.xcassets */,
-				0761F6A61CE4B78500351191 /* LaunchScreen.storyboard */,
 				0761F6A91CE4B78500351191 /* Info.plist */,
 				0761F6A11CE4B78500351191 /* snapSaver.xcdatamodeld */,
 			);
 			path = snapSaver;
+			sourceTree = "<group>";
+		};
+		0761F6AF1CE4B7AA00351191 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				073091FD1CE7EB8C00E69990 /* Snap+CoreDataProperties.swift */,
+				073091FE1CE7EB8C00E69990 /* Snap.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0761F6B01CE4B7B200351191 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0761F69E1CE4B78500351191 /* Main.storyboard */,
+				0761F6A61CE4B78500351191 /* LaunchScreen.storyboard */,
+				073091FB1CE7E50800E69990 /* SnapCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		0761F6B11CE4B7B900351191 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0761F69C1CE4B78500351191 /* ViewController.swift */,
+				07038BD51CE5F7450000FD56 /* NewSnapViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +175,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0761F69D1CE4B78500351191 /* ViewController.swift in Sources */,
+				07038BD61CE5F7450000FD56 /* NewSnapViewController.swift in Sources */,
 				0761F69B1CE4B78500351191 /* AppDelegate.swift in Sources */,
 				0761F6A31CE4B78500351191 /* snapSaver.xcdatamodeld in Sources */,
+				073092001CE7EB8C00E69990 /* Snap.swift in Sources */,
+				073091FC1CE7E50800E69990 /* SnapCell.swift in Sources */,
+				073091FF1CE7EB8C00E69990 /* Snap+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +332,7 @@
 				0761F6AE1CE4B78500351191 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
