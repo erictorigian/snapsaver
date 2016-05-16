@@ -17,6 +17,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 	@IBOutlet weak var tableView: UITableView!
 	
 	var snaps = [Snap]()
+//    var snapDetail: Snap
 	
 	override func viewDidLoad() {
         super.viewDidLoad()
@@ -69,6 +70,20 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 		}
 		
 	}
+	
+    
+//    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+//        self.snapDetail = snaps[indexPath.row]
+//    }
+	
+    
+    
+//    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+//        if (segue.identifier == "showDetailSegue") {
+//            let controller = segue.destinationViewController as! SnapDetailViewController
+//            controller.snap = self.snapDetail
+//        }
+//    }
 
 
 }

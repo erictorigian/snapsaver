@@ -17,6 +17,7 @@
 		0761F6A31CE4B78500351191 /* snapSaver.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0761F6A11CE4B78500351191 /* snapSaver.xcdatamodeld */; };
 		0761F6A51CE4B78500351191 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0761F6A41CE4B78500351191 /* Assets.xcassets */; };
 		0761F6A81CE4B78500351191 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0761F6A61CE4B78500351191 /* LaunchScreen.storyboard */; };
+		07D8A5861CE8E9EE00D9AD9E /* SnapDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D8A5851CE8E9EE00D9AD9E /* SnapDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		0761F6A41CE4B78500351191 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0761F6A71CE4B78500351191 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0761F6A91CE4B78500351191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07D8A5851CE8E9EE00D9AD9E /* SnapDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				0761F69C1CE4B78500351191 /* ViewController.swift */,
 				07038BD51CE5F7450000FD56 /* NewSnapViewController.swift */,
+				07D8A5851CE8E9EE00D9AD9E /* SnapDetailViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				0761F69B1CE4B78500351191 /* AppDelegate.swift in Sources */,
 				0761F6A31CE4B78500351191 /* snapSaver.xcdatamodeld in Sources */,
 				073092001CE7EB8C00E69990 /* Snap.swift in Sources */,
+				07D8A5861CE8E9EE00D9AD9E /* SnapDetailViewController.swift in Sources */,
 				073091FC1CE7E50800E69990 /* SnapCell.swift in Sources */,
 				073091FF1CE7EB8C00E69990 /* Snap+CoreDataProperties.swift in Sources */,
 			);
