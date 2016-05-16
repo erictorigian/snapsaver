@@ -17,6 +17,8 @@ class SnapCell: UITableViewCell {
 	override func awakeFromNib() {
 		super.awakeFromNib()
 		
+		snapImage.layer.cornerRadius = 20.0
+		snapImage.clipsToBounds = true
 	}
 	
 	func configureCell(snap: Snap) {

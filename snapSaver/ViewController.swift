@@ -11,21 +11,14 @@ import CoreData
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
-	//MARK: - IBOutlets
-	
+	//MARK: - IBOutlets and variables
 	
 	@IBOutlet weak var tableView: UITableView!
 	
 	var snaps = [Snap]()
-//    var snapDetail: Snap
 	
-	override func viewDidLoad() {
-        super.viewDidLoad()
-		
-		tableView.delegate = self
-		tableView.dataSource = self
-        
-    }
+	
+	//MARK: - View lifecycle functions
 	
 	override func viewDidAppear(animated: Bool) {
 		super.viewDidAppear(animated)
@@ -33,6 +26,16 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 		fetchAndSetResults()
 		tableView.reloadData()
 	}
+	
+	override func viewDidLoad() {
+		super.viewDidLoad()
+		
+		tableView.delegate = self
+		tableView.dataSource = self
+		
+	}
+	
+	//MARK: - Coredata Functions
 	
 	func fetchAndSetResults() {
 		let app = UIApplication.sharedApplication().delegate as! AppDelegate
@@ -70,21 +73,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 		}
 		
 	}
-	
-    
-//    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-//        self.snapDetail = snaps[indexPath.row]
-//    }
-	
-    
-    
-//    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-//        if (segue.identifier == "showDetailSegue") {
-//            let controller = segue.destinationViewController as! SnapDetailViewController
-//            controller.snap = self.snapDetail
-//        }
-//    }
-
 
 }
 

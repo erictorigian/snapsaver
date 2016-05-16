@@ -12,8 +12,7 @@ class SnapDetailViewController: UITableViewController {
     
     @IBOutlet weak var snapName: UILabel!
     
-//    var snap: Snap
-//    
+	var snap = Snap()
 	
     
 }
