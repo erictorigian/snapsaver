@@ -39,6 +39,7 @@ class NewSnapViewController: UIViewController, UIImagePickerControllerDelegate, 
 	
 	@IBAction func addImage(sender: AnyObject) {
 		presentViewController(imagePicker, animated: true, completion: nil)
+		sender.setTitle("", forState: .Normal)
 		
 	}
 	

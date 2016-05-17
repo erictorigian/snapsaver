@@ -132,15 +132,15 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="camera" translatesAutoresizingMaskIntoConstraints="NO" id="QEh-7j-KTf">
-                                <rect key="frame" x="213" y="247" width="175" height="175"/>
+                                <rect key="frame" x="213" y="229" width="175" height="175"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="175" id="3vO-VD-Kps"/>
                                     <constraint firstAttribute="width" constant="175" id="GOy-Dz-Wkt"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Ld-My-mz1">
-                                <rect key="frame" x="213" y="247" width="175" height="175"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <rect key="frame" x="213" y="229" width="175" height="175"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
                                 <state key="normal" title="ADD IMAGE">
                                     <color key="titleColor" red="0.025180288461538414" green="0.025180288461538414" blue="0.025180288461538414" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -149,7 +149,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7zC-td-2kr">
-                                <rect key="frame" x="258" y="450" width="85" height="30"/>
+                                <rect key="frame" x="258" y="414" width="85" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="85" id="Tbp-ID-RFE"/>
                                     <constraint firstAttribute="height" constant="30" id="sxU-xP-AzE"/>
@@ -167,12 +167,12 @@
                             <constraint firstItem="UQb-3O-QAa" firstAttribute="trailing" secondItem="2LK-XW-npe" secondAttribute="trailingMargin" id="73w-r4-t2K"/>
                             <constraint firstItem="7zC-td-2kr" firstAttribute="centerX" secondItem="2LK-XW-npe" secondAttribute="centerX" id="B8I-Uo-JAG"/>
                             <constraint firstItem="fZ0-Nk-9pl" firstAttribute="top" secondItem="Dau-Ow-nQb" secondAttribute="bottom" constant="14" id="HjY-Ta-Zdd"/>
-                            <constraint firstItem="QEh-7j-KTf" firstAttribute="top" secondItem="fZ0-Nk-9pl" secondAttribute="bottom" constant="33" id="ITL-XG-Fjg"/>
+                            <constraint firstItem="QEh-7j-KTf" firstAttribute="top" secondItem="fZ0-Nk-9pl" secondAttribute="bottom" constant="15" id="ITL-XG-Fjg"/>
                             <constraint firstItem="1Ld-My-mz1" firstAttribute="centerX" secondItem="QEh-7j-KTf" secondAttribute="centerX" id="NCj-Md-35w"/>
                             <constraint firstItem="Dau-Ow-nQb" firstAttribute="trailing" secondItem="2LK-XW-npe" secondAttribute="trailingMargin" id="Ola-F6-USX"/>
                             <constraint firstItem="fZ0-Nk-9pl" firstAttribute="trailing" secondItem="2LK-XW-npe" secondAttribute="trailingMargin" id="PmP-or-ZUv"/>
                             <constraint firstItem="1Ld-My-mz1" firstAttribute="centerY" secondItem="QEh-7j-KTf" secondAttribute="centerY" id="TmE-zq-am0"/>
-                            <constraint firstItem="7zC-td-2kr" firstAttribute="top" secondItem="1Ld-My-mz1" secondAttribute="bottom" constant="28" id="Vbt-5K-9Xi"/>
+                            <constraint firstItem="7zC-td-2kr" firstAttribute="top" secondItem="1Ld-My-mz1" secondAttribute="bottom" constant="10" id="Vbt-5K-9Xi"/>
                             <constraint firstItem="fZ0-Nk-9pl" firstAttribute="leading" secondItem="2LK-XW-npe" secondAttribute="leadingMargin" id="Znx-Mn-xVO"/>
                             <constraint firstItem="UQb-3O-QAa" firstAttribute="leading" secondItem="2LK-XW-npe" secondAttribute="leadingMargin" id="c8b-Vv-6Vb"/>
                             <constraint firstItem="1Ld-My-mz1" firstAttribute="height" secondItem="QEh-7j-KTf" secondAttribute="height" id="fxs-em-nQ5"/>
